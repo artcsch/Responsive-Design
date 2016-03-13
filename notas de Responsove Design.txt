@@ -1,0 +1,53 @@
+notas de Responsove Design
+
+Unidades relativas
+porcentajes: que apate de los pixceles podemos utlizar el porcetaje que desea asignar como propiedad a nuestro elementos.
+em: Es namedia que se toma como referencia el tamaño de nuestra tipografia al tamaño de la letra "m" segun a elemento padre que contenga elhijo para asignar el valor.
+rem: esta medida toma como referencia la medida del contenedor general.
+
+rem o em espaciados, padding va en relacion a tamaño de fuente para bloques utlizar %
+@media-queries: nos ayudan parala organizacion del contenido para pantallas se definiran segun los tamaños de los viewport.
+
+Una media query también puede tener más una condicione usando and para separarlas, ej: @media (min-width: 640px) and (max-width: 768px) {}.
+
+algunos de las propiedades mas utlizados 
+
+max-width
+aplica a todo lo menor de valor
+
+min-width
+aplica a todo lo mayor que el valor.
+
+breakpointy son los pntos de cambios de propiedades para los elementos de nuestro viewport.
+
+Estándar de breakpoints: móvil 320px, tablet 768px, desktop 1024px
+
+viewport: el tamaño del navegador que tenegamos en nuestro momento como tambien de los diferente dispositivos que hay.
+
+dip: 
+
+<meta name="viewport" content="width=device-width,initiak-scale=1"
+
+asi se inicia con este metadata para indicar que se adapte el contenido al dispositivo cualqueira que sea este.
+
+
+
+Patrones de Diseños Responsive.
+
+Tiny Tweaks: este es primero de los patrones significa pequeños cambios.
+
+tenemos algunos media-query: si queremos para que se vea bien en pantalla utilizaremos el media-query screem 
+
+si deseamos que se vea bien para imprimir utilizaremos print
+
+
+PROGRESSIVE ENHANCEMENT VS GRACEFUl DEGRADATION
+
+progressive: vamos dese primero por los mobiles y vamos a desktop. (MOBILE FIRST)
+graceful: comenzamos por desktop y vamos a mobile.
+
+Mobile-first: se piensa en el contenido clave com primero segun el viweport que se baya teniendo va solicitando mas elemntos y vaya formando la pagina.
+
+
+COLUMN-DROP
+
